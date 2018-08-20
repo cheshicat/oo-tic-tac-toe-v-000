@@ -15,6 +15,9 @@ class TicTacToe
   ]
 
   def play
+    until condition
+
+    end
   end
 
   def display_board
