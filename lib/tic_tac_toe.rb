@@ -14,19 +14,6 @@ class TicTacToe
     [6,4,2]
   ]
 
-  def play
-    while !over?
-      turn
-    end
-
-    if won?
-      puts
-    elsif draw?
-      puts
-
-    end
-  end
-
   def display_board
       puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
       puts "-----------"
@@ -90,8 +77,7 @@ class TicTacToe
   end
 
   def over?
-    over = false
-    draw? || won?
+    won? || draw?
   end
 
   def winner
