@@ -18,6 +18,8 @@ class TicTacToe
     while over? != true
       turn
     end
+    if won? == true
+    end
   end
 
   def display_board
