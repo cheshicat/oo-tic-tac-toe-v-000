@@ -23,7 +23,6 @@ class TicTacToe
     elsif draw?
       puts "string"
     end
-      
   end
 
   def display_board
