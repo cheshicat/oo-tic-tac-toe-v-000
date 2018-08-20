@@ -18,9 +18,9 @@ class TicTacToe
     while !over?
       turn(board)
     end
-    if won?(board)
+    if won?
       puts "String"
-    elsif draw?(board)
+    elsif draw?
       puts "string"
     end
   end
