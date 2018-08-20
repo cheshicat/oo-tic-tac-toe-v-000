@@ -15,9 +15,8 @@ class TicTacToe
   ]
 
   def play
-    while over? != true
+    while over? == false
       turn
-      break
     end
     if won?
       puts "String"
