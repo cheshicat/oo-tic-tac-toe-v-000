@@ -16,7 +16,7 @@ class TicTacToe
 
   def play
     while !over?
-      turn(board)
+      turn(@board)
     end
     if won?
       puts "String"
