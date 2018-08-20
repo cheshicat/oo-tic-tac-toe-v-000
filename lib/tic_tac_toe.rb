@@ -18,6 +18,11 @@ class TicTacToe
     until over? == true
       turn
     end
+    if condition
+      
+    else
+      
+    end
   end
 
   def display_board
