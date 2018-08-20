@@ -16,7 +16,6 @@ class TicTacToe
 
   def play
     while !over?
-      current_player
       turn
     end
 
