@@ -15,14 +15,6 @@ class TicTacToe
   ]
 
   def play
-    if !over?
-      turn
-    end
-    if won?
-      puts "string"
-    elsif draw?
-      puts "string"
-    end
   end
 
   def display_board
