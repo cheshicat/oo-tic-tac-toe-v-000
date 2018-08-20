@@ -15,6 +15,10 @@ class TicTacToe
   ]
 
   def play
+    counter = 0
+    until counter == 9
+      turn
+    end
   end
 
   def display_board
