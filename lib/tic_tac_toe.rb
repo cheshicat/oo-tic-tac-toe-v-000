@@ -15,9 +15,13 @@ class TicTacToe
   ]
 
   def play
-    counter = 0
-    until counter == 9
-      turn
+    while !over?(board)
+      turn(board)
+    end
+    if won?(board)
+      puts "String"
+    elsif draw?(board)
+      puts "string"
     end
   end
 
