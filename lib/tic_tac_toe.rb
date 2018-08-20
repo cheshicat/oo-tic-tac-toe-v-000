@@ -15,7 +15,7 @@ class TicTacToe
   ]
 
   def play
-    until condition
+    until over?
 
     end
   end
