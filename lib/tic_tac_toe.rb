@@ -21,6 +21,7 @@ class TicTacToe
         puts "String"
       else draw?
         puts "string"
+      end
     end
   end
 
