@@ -15,8 +15,12 @@ class TicTacToe
   ]
 
   def play
-    while over? != true && won? != true
+    while over? != true
       turn
+      if won?
+        puts "String"
+      else draw?
+        puts "string"
     end
   end
 
