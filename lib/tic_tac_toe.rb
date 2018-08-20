@@ -17,7 +17,6 @@ class TicTacToe
   def play
     until over? == true
       @turn = turn
-      turn
     end
     if won?
       puts
