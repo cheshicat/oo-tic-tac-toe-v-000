@@ -15,7 +15,7 @@ class TicTacToe
   ]
 
   def play
-    @over = over
+    @over = over?
     until over? == true
       turn
     end
