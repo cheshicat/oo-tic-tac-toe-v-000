@@ -14,17 +14,6 @@ class TicTacToe
     [6,4,2]
   ]
 
-  def play
-    until over? == true
-      turn
-    end
-    if won?
-      puts "String"
-    elsif draw?
-      puts "string"
-    end
-  end
-
   def display_board
       puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
       puts "-----------"
