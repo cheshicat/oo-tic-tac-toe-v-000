@@ -20,7 +20,9 @@ class TicTacToe
     end
     if won?
       puts "string"
-    elsif condition
+    elsif draw?
+      puts "string"
+    end
       
   end
 
