@@ -17,7 +17,8 @@ class TicTacToe
   def play
     counter = 0
     until over? || counter == 9
-      
+      turn
+      counter +=1
     end
   end
 
