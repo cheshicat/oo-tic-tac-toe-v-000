@@ -19,9 +19,6 @@ class TicTacToe
     while !over?
       turn
     end
-
-
-    end
   end
 
   def display_board
