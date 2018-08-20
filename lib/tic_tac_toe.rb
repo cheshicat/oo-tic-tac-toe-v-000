@@ -18,7 +18,7 @@ class TicTacToe
     until over?
       turn
     end
-    elsif won? !=false
+    if won? !=false
       puts
     else draw? !=false
       puts
