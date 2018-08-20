@@ -19,6 +19,7 @@ class TicTacToe
       turn
     end
     if won? == true
+      puts "string"
     end
   end
 
