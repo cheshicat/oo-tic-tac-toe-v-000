@@ -91,7 +91,7 @@ class TicTacToe
   end
 
   def play
-    board[!over?]
+    if @board[!over?]
       turn
     end
   end
