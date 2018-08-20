@@ -16,6 +16,8 @@ class TicTacToe
 
   def play
     until over? == true
+      current_player
+      turn
     end
 
     if won?
