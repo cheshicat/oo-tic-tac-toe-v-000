@@ -15,7 +15,7 @@ class TicTacToe
   ]
 
   def play
-    while !over?
+    while !over?(@board)
       turn
     end
     if won?
