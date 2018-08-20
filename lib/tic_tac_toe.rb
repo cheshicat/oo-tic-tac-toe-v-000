@@ -20,6 +20,8 @@ class TicTacToe
     end
     if won?
       puts "string"
+    elsif condition
+      
   end
 
   def display_board
