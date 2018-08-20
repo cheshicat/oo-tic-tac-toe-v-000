@@ -15,7 +15,7 @@ class TicTacToe
   ]
 
   def play
-    until over? == true
+    while !over? == true
       current_player
       turn
     end
