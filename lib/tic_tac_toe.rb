@@ -17,10 +17,9 @@ class TicTacToe
   def play
     if over? == false
       turn
-    end
-    if won? !=false
+    elsif over? == true && won? == true
       puts
-    else draw? !=false
+    else over? == true && draw? == true
       puts
     end
   end
