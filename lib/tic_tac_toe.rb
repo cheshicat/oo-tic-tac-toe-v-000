@@ -15,8 +15,9 @@ class TicTacToe
   ]
 
   def play
-    while !won? && !draw?
-      turn
+    counter = 0
+    until over? || counter == 9
+      
     end
   end
 
