@@ -15,8 +15,7 @@ class TicTacToe
   ]
 
   def play
-    until over?
-    end
+  end
 
   def display_board
       puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
