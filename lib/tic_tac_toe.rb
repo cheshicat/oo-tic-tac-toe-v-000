@@ -91,7 +91,7 @@ class TicTacToe
   end
 
   def play
-    until over?
+    while @board.!over?
       turn
     end
   end
