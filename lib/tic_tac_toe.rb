@@ -15,7 +15,9 @@ class TicTacToe
   ]
 
   def play
-
+    while !over? == true
+      turn
+    end
   end
 
   def display_board
