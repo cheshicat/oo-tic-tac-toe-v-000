@@ -20,7 +20,8 @@ class TicTacToe
 
     if won?
       puts
-    elsif puts
+    elsif draw?
+      puts
 
     end
   end
