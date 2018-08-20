@@ -19,9 +19,9 @@ class TicTacToe
       turn
     end
     if won?
-      
+
     else draw?
-      
+
     end
   end
 
@@ -64,7 +64,7 @@ class TicTacToe
     if valid_move?(index)
       move(index, current_player)
       display_board
-    else
+    elsif
       turn
     end
   end
