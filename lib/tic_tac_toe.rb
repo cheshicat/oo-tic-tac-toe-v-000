@@ -15,12 +15,10 @@ class TicTacToe
   ]
 
   def play
-    if over? != true
+    while over? !=true
       turn
-    elsif won?
-      puts "Congratulations!"
-    elsif draw?
-      puts "cat"
+    end
+
     end
   end
 
