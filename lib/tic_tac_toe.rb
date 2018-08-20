@@ -15,7 +15,7 @@ class TicTacToe
   ]
 
   def play
-    if over? == false
+    if !over? == false
       turn
     end
   end
