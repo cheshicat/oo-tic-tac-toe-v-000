@@ -15,12 +15,10 @@ class TicTacToe
   ]
 
   def play
-    until over?
+    while !over?
       turn
     end
-    if won?
-
-    elsif draw?
+  
 
     end
   end
