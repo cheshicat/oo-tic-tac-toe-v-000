@@ -18,6 +18,7 @@ class TicTacToe
     if !over?
       turn
     end
+    if won?
   end
 
   def display_board
