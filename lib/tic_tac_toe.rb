@@ -15,10 +15,11 @@ class TicTacToe
   ]
 
   def play
+    over = over?
     while !over?
       turn
     end
-  
+
 
     end
   end
